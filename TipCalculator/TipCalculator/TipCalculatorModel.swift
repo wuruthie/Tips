@@ -1,4 +1,6 @@
-class TipCalculatorModel{
+import Foundation
+
+class TipCalculatorModel {
     
     var total: Double
     var taxPct: Double
@@ -29,6 +31,7 @@ class TipCalculatorModel{
         return retval
         
     }
+    
 }
 
 
